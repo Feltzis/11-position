@@ -1,11 +1,22 @@
 html {
-    background-color: indianred;
+    background-color: rgb(245, 96, 96);
     font-family: "superpop-variable", sans-serif;
     font-variation-settings: "wght" 200;
 }
 
+body {
+    margin: 0;
+}
+
+code {
+    background-color: rgba(250, 143, 195, 0.2);
+    color: rgb(163, 11, 92);
+    padding: 1px;
+    border-radius: 5px;
+}
+
 .site-nav {
-    background-color: darkgreen;
+    background-color: rgb(56, 153, 56);
 }
 
 .site-links {
@@ -22,7 +33,7 @@ html {
 }
 
 .site-link:hover {
-    background-color: rgb(1, 50, 1);
+    background-color:darkgreen;
 }
 
 .dropdown {
@@ -47,4 +58,9 @@ html {
 
 .has-dropdown:hover .dropdown {
     display: block;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
 }
